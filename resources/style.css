@@ -1,0 +1,204 @@
+body {
+    background-color: #F5EEC9;
+}
+* {
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+}
+
+.links {
+    display: flex;
+    align-self: flex-end;
+    gap: 20px;
+    z-index: 1;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    
+
+}
+.main_image {
+    width: auto;
+    height: 60vw;
+    z-index: 0;
+    padding-top: 5%;
+}
+p, h2 {
+    font-family: "IBM Plex Mono", monospace, JetBrains Mono, 'Source Code Pro', sans-serif;
+    color: #315C7F;
+    font-size: 20px;
+}
+
+a {
+    color: #315C7F;
+    text-decoration: none;
+}
+
+.right_elem {
+    text-decoration: none;
+}
+.left_elem {
+    text-decoration: none;
+}
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%
+}
+.left_side {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.buttons {
+    display: flex;                  /* Enable CSS Grid layout */
+    gap: 5vh;
+    width: 90%;
+    align-self: flex-end;
+    flex-wrap: wrap; 
+    justify-content: end;
+    
+}
+
+button {
+    background-color: #4caf4f00;
+    color: #315C7F;
+    
+    text-align: center; 
+    border: 2px solid #315C7F;
+    padding: 2vw 2vw; 
+    font-size: 20px;  
+    font-family: "IBM Plex Mono", monospace, JetBrains Mono, 'Source Code Pro', sans-serif;
+    flex: 0 0 50px;              /* Fixed width of 200px */
+    
+}
+
+.intro_par {
+    text-align: right;
+}
+.works {
+    display: flex;
+    justify-content: center;
+}
+.work {
+    width: 80vw;
+}
+.innerWorks {
+    width: 80vw;
+
+}
+.content {
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 30px;
+    flex-direction: column;
+}
+.contentDes {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 30px;
+    flex-direction: column;
+}
+
+.codes, .designs {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+ 
+}
+.project, .designProj {
+    width: 48%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #315C7F;
+    justify-content: space-between;
+    padding: 15px;
+   
+    margin-bottom: 30px;
+}
+.year {
+    text-align: right;
+}
+.ImgTitle {
+    text-align: right;
+    
+}
+
+.artwork {
+    width: 44%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    border: 2px solid #315C7F;
+}
+
+.artImg {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 5%;
+}
+/*
+.designProj {
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 2px solid #315C7F;
+    padding: 3%;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+}
+*/
+
+.innerDesign {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.designImg {
+    width: 50%;
+    height: auto;
+    
+}
+.innerDesign p {
+    font-size: 30px;
+    padding-right: 3%;
+    
+}
+.experiment {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    border: 2px solid #315C7F;
+    padding: 1%;
+}
+
+.artwork a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    
+}
+
+
