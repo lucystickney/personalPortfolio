@@ -40,6 +40,11 @@ a {
 }
 .left_elem {
     text-decoration: none;
+    flex-shrink: 0;
+}
+
+.left_elem_small {
+    display: none;
 }
 .main_row {
     display: flex;
@@ -55,12 +60,15 @@ a {
 }
 .buttons {
     display: flex;                  /* Enable CSS Grid layout */
-    gap: 5vh;
+    gap: 3vw;
     width: 90%;
     align-self: flex-end;
     flex-wrap: wrap; 
     justify-content: end;
     
+}
+.small {
+    display: none;
 }
 
 button {
@@ -72,8 +80,6 @@ button {
     padding: 2vw 2vw; 
     font-size: 20px;  
     font-family: "IBM Plex Mono", monospace, JetBrains Mono, 'Source Code Pro', sans-serif;
-    flex: 0 0 50px;              /* Fixed width of 200px */
-    
 }
 
 .intro_par {
@@ -105,12 +111,17 @@ button {
     flex-direction: column;
 }
 
-.codes, .designs {
+.designs {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
  
 }
+.codes {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
 .project, .designProj {
     width: 48%;
     height: auto;
@@ -167,7 +178,6 @@ button {
 .designImg {
     width: 50%;
     height: auto;
-    
 }
 .innerDesign p {
     font-size: 30px;
@@ -175,11 +185,11 @@ button {
     
 }
 .experiment {
-    width: 20%;
-    height: auto;
+    width: 200px;
+    height: 150px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5%;
+    margin: 3%;
     border: 2px solid #315C7F;
     padding: 1%;
 }
@@ -200,5 +210,45 @@ iframe {
     height: 300px;
     
 }
+canvas {
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 10%;
+}
+@media (max-width: 820px) {
+    .big {
+        display: none;
+    }
+    .small {
+        display: flex;
+    }
+    .artwork {
+        width: 100%;
+    }
+    p, h2, button {
+        font-size: 19px;
+    }
+    .project, .designProj {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 610px) {
+    .left_elem {
+        display: none;
+    }
+    
+    .left_elem_small {
+        display: block;
+        text-decoration: none;
+        flex-shrink: 0;
+    }
+    p, h2, button {
+        font-size: 18px;
+    }
+}
+
 
 
