@@ -139,11 +139,11 @@ button {
 }
 .ImgTitle {
     text-align: right;
-    
+    padding-right: 20px;
 }
 
-.artwork {
-    width: 44%;
+.painting, .drawing, .photo {
+    width: 47%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -169,6 +169,13 @@ button {
     flex-wrap: wrap;
 }
 */
+.hideElems {
+    display: none;
+}
+
+.boldTitle {
+    font-weight: bold;
+}
 
 .innerDesign {
     display: flex;
@@ -195,7 +202,17 @@ button {
     padding: 1%;
 }
 
-.artwork a {
+.artButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.artButtons button {
+    width: auto;
+}
+
+.painting a, .drawing a, .photo a {
 
     display: flex;
     justify-content: center;
