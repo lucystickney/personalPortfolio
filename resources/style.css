@@ -74,7 +74,7 @@ a {
 button {
     background-color: #4caf4f00;
     color: #315C7F;
-    width: 130px;
+    
     text-align: center; 
     border: 2px solid #315C7F;
     padding: 12px;
@@ -243,11 +243,11 @@ canvas {
     .small {
         display: none;
     }
-    .artwork {
+    .drawing, .painting, .photo {
         width: 100%;
     }
     p, h2, button {
-        font-size: 19px;
+        font-size: 17px;
     }
     .project, .designProj {
         width: 100%;
@@ -267,7 +267,7 @@ canvas {
         flex-shrink: 0;
     }
     p, h2, button {
-        font-size: 18px;
+        font-size: 15px;
     }
     .left_side {
         flex-direction: row;
