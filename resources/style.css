@@ -140,6 +140,7 @@ button {
 .ImgTitle {
     text-align: right;
     padding-right: 20px;
+    padding-left: 20px;
 }
 
 .painting, .drawing, .photo {
@@ -271,7 +272,7 @@ canvas {
         flex-shrink: 0;
     }
     p, h2, button {
-        font-size: 15px;
+        font-size: 13px;
     }
     .left_side {
         flex-direction: row;
@@ -287,7 +288,7 @@ canvas {
         margin-top: 0px;
     }
     button {
-        padding: 12px;
+        padding: 10px;
     }
     .buttons {
         justify-content: left;
